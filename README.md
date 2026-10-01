@@ -20,37 +20,15 @@ Ouvrir ensuite [http://localhost:8080](http://localhost:8080).
 
 Pour arrêter le serveur : `Ctrl+C`.
 
-## E-mail
-
-Les téléphones affichés sont le +243 999 944 572 et le +243 822 017 588. L'e-mail n'est pas encore indiqué. Pour l'ajouter, modifier `js/site-config.js` :
-
-```js
-window.SITE_CONFIG = {
-  email: "contact@exemple.com"
-};
-```
-
-Ne pas y placer de mot de passe, de jeton ou de clé.
-
-## Formulaire de contact
-
-Le formulaire vérifie les champs dans le navigateur, puis s'arrête. **Aucun message n'est envoyé** : ce dépôt ne contient pas de backend.
-
-Pour un envoi réel, il faudra plus tard un service externe (formulaire hébergé) ou un serveur. Cette configuration devra rester hors du dépôt s'il s'agit d'une clé ou d'un secret. Le commentaire en tête du formulaire, dans `contact.html`, le rappelle.
+Le site tient sur une seule page : objectif, valeurs, services et adresse. Les téléphones affichés sont le +243 999 944 572 et le +243 822 017 588. Il n'y a pas de formulaire.
 
 ## Fichiers
 
 ```text
-index.html              Accueil
-about.html              À propos
-services.html           Activités
-organisation.html       Organisation
-institutionnel.html     Informations institutionnelles
-contact.html            Contact
+index.html              Page unique
 404.html                Page introuvable
 css/style.css           Styles
-js/script.js            Menu, année, formulaire
-js/site-config.js       Adresse e-mail, lorsqu'elle sera connue
+js/script.js            Menu et année
 images/                 Logo
 favicon/                Icône du site
 vendor/bootstrap/       Bootstrap 5.3.3 (fichier local)
