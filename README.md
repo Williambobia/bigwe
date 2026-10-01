@@ -20,15 +20,18 @@ Ouvrir ensuite [http://localhost:8080](http://localhost:8080).
 
 Pour arrêter le serveur : `Ctrl+C`.
 
-Le site tient sur une seule page : objectif, valeurs, services et adresse. Les téléphones affichés sont le +243 999 944 572 et le +243 822 017 588. Il n'y a pas de formulaire.
+Le site présente l'objectif, les valeurs, les services regroupés et l'adresse. Une demande de devis ouvre WhatsApp. Les téléphones sont le +243 999 944 572 et le +243 822 017 588.
 
 ## Fichiers
 
 ```text
-index.html              Page unique
+index.html              Accueil
+services.html           Services
+about.html              À propos et mentions
 404.html                Page introuvable
+sitemap.xml             Plan du site
 css/style.css           Styles
-js/script.js            Menu et année
+js/script.js            Menu et devis WhatsApp
 images/                 Logo
 favicon/                Icône du site
 vendor/bootstrap/       Bootstrap 5.3.3 (fichier local)
